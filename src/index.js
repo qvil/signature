@@ -1,3 +1,8 @@
-module.export = function signatrue(text) {
-  console.log(text);
+const signatrue = {
+  toConsole: text => {
+    console.log(text);
+  }
 };
+
+module.exports = signatrue;
+// export default signatrue;
