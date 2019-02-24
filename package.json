@@ -22,7 +22,5 @@
     "url": "https://github.com/qvil/signature/issues"
   },
   "dependencies": {},
-  "devDependencies": {
-    "gh-pages": "^2.0.1"
-  }
+  "devDependencies": {}
 }
