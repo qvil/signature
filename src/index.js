@@ -7,5 +7,5 @@ const signatrue = {
   }
 };
 
-signatrue.exports = signatrue;
+exports.signatrue = signatrue;
 // export default signatrue;
