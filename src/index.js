@@ -1,13 +1,11 @@
 const signatrue = {
   toHTML: text => {
-    // document.body.innerHTML(text);
-    // document.body.innerHTML = "<div />";
-    document.body.innerHTML = text;
+    document.prepend(document.createComment(text));
   },
   toConsole: text => {
     console.log(text);
   }
 };
 
-// module.exports = signatrue;
+signatrue.exports = signatrue;
 // export default signatrue;

@@ -7,12 +7,13 @@
     <title>Document</title>
   </head>
   <body>
-    Test
     <script src="./src/index.js"></script>
     <script>
-      const text = "Signature code! Check your console.";
+      const text =
+        "Signature code! Check your console & Developer tool's Elements tab!";
       signatrue.toHTML(text);
       signatrue.toConsole(text);
+      document.body.append(text);
     </script>
   </body>
 </html>
