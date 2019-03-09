@@ -1,14 +1,33 @@
-# Signature
+# Signature Code
 
-Write signature code your project.
+Write signature code your project. ✒
 
-## Install
+## Usage
+
+### Install
+
+```
+npm install --save signature-code
+```
+
+### Example
+
+```
+import SignatureCode from "signature-code";
+
+SignatureCode.toHTML("My Signature!");
+SignatureCode.toConsole("My Signature!");
+```
+
+## Development
+
+### Install
 
 ```
 npm install
 ```
 
-## Start
+### Start
 
 ```
 npm start
