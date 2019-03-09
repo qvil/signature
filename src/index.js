@@ -17,7 +17,7 @@ const SignatureCode = {
   }
 };
 
-exports.SignatureCode = SignatureCode;
+// exports.SignatureCode = SignatureCode;
 // module.exports = { SignatureCode };
-window.SignatureCode = SignatureCode;
+// window.SignatureCode = SignatureCode;
 export default SignatureCode;
